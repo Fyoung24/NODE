@@ -20,6 +20,11 @@ public class Node<T> {
     public Node (T value){//value constructor
 
     }
+
+    public Node(int i, Node<Integer> node2, Node<Integer> node1) {
+
+    }
+
     private void set(T value){//
         this.value=value;
     }
